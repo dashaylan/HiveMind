@@ -1,0 +1,403 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+
+Pi0 {"Pi0":1}
+Initialization Complete
+Pi0 {"Pi0":2, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi2":2, "Pi0":3, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi1":2, "Pi2":2, "Pi0":4, "Pi5":2}
+Rx BARRREQ
+Pi0 {"Pi0":5, "Pi5":2, "Pi1":2, "Pi6":2, "Pi2":2}
+Rx BARRREQ
+Pi0 {"Pi2":2, "Pi0":6, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2}
+Rx BARRREQ
+Pi0 {"Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":7, "Pi5":2}
+Rx BARRREQ
+Pi0 {"Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":8, "Pi4":2, "Pi5":2, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":9, "Pi4":2, "Pi5":2, "Pi1":2}
+Tx BARRREQ
+Pi0 {"Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":10, "Pi4":2, "Pi5":2, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":11}
+Tx BARRRSP
+Pi0 {"Pi0":12, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2}
+Tx BARRRSP
+Pi0 {"Pi0":13, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2}
+Tx BARRRSP
+Pi0 {"Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":14, "Pi4":2}
+Tx BARRRSP
+Pi0 {"Pi7":2, "Pi2":2, "Pi0":15, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2}
+Tx BARRRSP
+Pi0 {"Pi7":2, "Pi2":2, "Pi0":16, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2}
+Tx BARRRSP
+Pi0 {"Pi2":2, "Pi0":17, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2, "Pi3":2, "Pi7":2}
+Tx BARRRSP
+Pi0 {"Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2, "Pi0":18, "Pi4":2, "Pi5":2, "Pi1":2}
+Tx BARRREQ
+Pi0 {"Pi3":2, "Pi7":2, "Pi2":2, "Pi0":19, "Pi4":2, "Pi5":2, "Pi1":2, "Pi6":2}
+Rx BARRREQ
+Pi0 {"Pi0":20, "Pi4":2, "Pi5":2, "Pi1":4, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":2}
+Rx BARRREQ
+Pi0 {"Pi4":2, "Pi5":2, "Pi1":4, "Pi6":2, "Pi3":2, "Pi7":2, "Pi2":4, "Pi0":21}
+Rx BARRREQ
+Pi0 {"Pi7":2, "Pi2":4, "Pi0":22, "Pi4":4, "Pi5":2, "Pi1":4, "Pi6":2, "Pi3":2}
+Rx BARRREQ
+Pi0 {"Pi7":2, "Pi2":4, "Pi0":23, "Pi4":4, "Pi5":2, "Pi1":4, "Pi6":2, "Pi3":4}
+Rx BARRREQ
+Pi0 {"Pi1":4, "Pi6":2, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":24, "Pi4":4, "Pi5":2}
+Rx BARRREQ
+Pi0 {"Pi4":4, "Pi5":2, "Pi1":4, "Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":25}
+Rx BARRREQ
+Pi0 {"Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":26, "Pi4":4, "Pi5":4, "Pi1":4}
+Rx BARRREQ
+Pi0 {"Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":27, "Pi4":4, "Pi5":4, "Pi1":4}
+Tx BARRRSP
+Pi0 {"Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":28, "Pi4":4, "Pi5":4, "Pi1":4}
+Tx BARRRSP
+Pi0 {"Pi4":4, "Pi5":4, "Pi1":4, "Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":29}
+Tx BARRRSP
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":30, "Pi4":4, "Pi5":4, "Pi1":4, "Pi6":4, "Pi3":4}
+Tx BARRRSP
+Pi0 {"Pi3":4, "Pi7":4, "Pi2":4, "Pi0":31, "Pi4":4, "Pi5":4, "Pi1":4, "Pi6":4}
+Tx BARRRSP
+Pi0 {"Pi2":4, "Pi0":32, "Pi4":4, "Pi5":4, "Pi1":4, "Pi6":4, "Pi3":4, "Pi7":4}
+Tx BARRRSP
+Pi0 {"Pi5":4, "Pi1":4, "Pi6":4, "Pi3":4, "Pi7":4, "Pi2":4, "Pi0":33, "Pi4":4}
+Tx BARRRSP
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":34, "Pi4":4, "Pi5":4, "Pi1":4, "Pi6":4, "Pi3":4}
+Tx LOCKREQ
+Pi0 {"Pi3":4, "Pi7":4, "Pi2":4, "Pi0":35, "Pi4":4, "Pi5":4, "Pi1":7, "Pi6":4}
+Rx LOCKRSP
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":36, "Pi4":4, "Pi5":4, "Pi1":7, "Pi6":4, "Pi3":4}
+Tx BARRREQ
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":37, "Pi4":4, "Pi5":4, "Pi1":7, "Pi6":4, "Pi3":4}
+Rx BARRREQ
+Pi0 {"Pi2":4, "Pi0":38, "Pi4":4, "Pi5":4, "Pi1":8, "Pi6":4, "Pi3":4, "Pi7":4}
+Rx LOCKREQ
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":39, "Pi4":4, "Pi5":4, "Pi1":8, "Pi6":4, "Pi3":4}
+Tx LOCKRSP
+Pi0 {"Pi4":6, "Pi5":4, "Pi1":13, "Pi6":4, "Pi3":6, "Pi7":4, "Pi2":4, "Pi0":40}
+Rx PAGEREQ
+Pi0 {"Pi0":41, "Pi4":6, "Pi5":4, "Pi1":13, "Pi6":4, "Pi3":6, "Pi7":4, "Pi2":4}
+Tx PAGERSP
+Pi0 {"Pi1":15, "Pi6":4, "Pi3":6, "Pi7":4, "Pi2":4, "Pi0":42, "Pi4":6, "Pi5":4}
+Rx DIFFREQ
+Pi0 {"Pi0":43, "Pi4":6, "Pi5":4, "Pi1":15, "Pi6":4, "Pi3":6, "Pi7":4, "Pi2":4}
+Tx DIFFRSP
+Pi0 {"Pi0":44, "Pi4":6, "Pi5":6, "Pi1":20, "Pi6":4, "Pi3":6, "Pi7":4, "Pi2":4}
+Rx BARRREQ
+Pi0 {"Pi6":4, "Pi3":9, "Pi7":4, "Pi2":4, "Pi0":45, "Pi4":6, "Pi5":6, "Pi1":20}
+Rx PAGEREQ
+Pi0 {"Pi3":9, "Pi7":4, "Pi2":4, "Pi0":46, "Pi4":6, "Pi5":6, "Pi1":20, "Pi6":4}
+Tx PAGERSP
+Pi0 {"Pi2":4, "Pi0":47, "Pi4":6, "Pi5":6, "Pi1":22, "Pi6":4, "Pi3":14, "Pi7":4}
+Rx BARRREQ
+Pi0 {"Pi7":4, "Pi2":4, "Pi0":48, "Pi4":9, "Pi5":6, "Pi1":22, "Pi6":4, "Pi3":14}
+Rx PAGEREQ
+Pi0 {"Pi3":14, "Pi7":4, "Pi2":4, "Pi0":49, "Pi4":9, "Pi5":6, "Pi1":22, "Pi6":4}
+Tx PAGERSP
+Pi0 {"Pi1":22, "Pi6":4, "Pi3":16, "Pi7":4, "Pi2":4, "Pi0":50, "Pi4":14, "Pi5":6}
+Rx BARRREQ
+Pi0 {"Pi3":16, "Pi7":4, "Pi2":4, "Pi0":51, "Pi4":14, "Pi5":9, "Pi1":24, "Pi6":6}
+Rx PAGEREQ
+Pi0 {"Pi0":52, "Pi4":14, "Pi5":9, "Pi1":24, "Pi6":6, "Pi3":16, "Pi7":4, "Pi2":4}
+Tx PAGERSP
+Pi0 {"Pi6":6, "Pi3":16, "Pi7":4, "Pi2":4, "Pi0":53, "Pi4":16, "Pi5":14, "Pi1":24}
+Rx BARRREQ
+Pi0 {"Pi7":6, "Pi2":4, "Pi0":54, "Pi4":16, "Pi5":14, "Pi1":26, "Pi6":9, "Pi3":16}
+Rx PAGEREQ
+Pi0 {"Pi2":4, "Pi0":55, "Pi4":16, "Pi5":14, "Pi1":26, "Pi6":9, "Pi3":16, "Pi7":6}
+Tx PAGERSP
+Pi0 {"Pi0":56, "Pi4":16, "Pi5":16, "Pi1":26, "Pi6":14, "Pi3":16, "Pi7":6, "Pi2":4}
+Rx BARRREQ
+Pi0 {"Pi4":16, "Pi5":16, "Pi1":28, "Pi6":14, "Pi3":16, "Pi7":9, "Pi2":6, "Pi0":57}
+Rx PAGEREQ
+Pi0 {"Pi7":9, "Pi2":6, "Pi0":58, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":14, "Pi3":16}
+Tx PAGERSP
+Pi0 {"Pi2":6, "Pi0":59, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":14}
+Rx BARRREQ
+Pi0 {"Pi1":28, "Pi6":16, "Pi3":16, "Pi7":14, "Pi2":8, "Pi0":60, "Pi4":16, "Pi5":16}
+Rx PAGEREQ
+Pi0 {"Pi7":14, "Pi2":8, "Pi0":61, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16}
+Tx PAGERSP
+Pi0 {"Pi7":16, "Pi2":12, "Pi0":62, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16}
+Rx BARRREQ
+Pi0 {"Pi2":12, "Pi0":63, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16}
+Tx BARRRSP
+Pi0 {"Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":12, "Pi0":64}
+Tx BARRRSP
+Pi0 {"Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":12, "Pi0":65}
+Tx BARRRSP
+Pi0 {"Pi3":16, "Pi7":16, "Pi2":12, "Pi0":66, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16}
+Tx BARRRSP
+Pi0 {"Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":12, "Pi0":67, "Pi4":16}
+Tx BARRRSP
+Pi0 {"Pi0":68, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":12}
+Tx BARRRSP
+Pi0 {"Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":12, "Pi0":69, "Pi4":16}
+Tx BARRRSP
+Pi0 {"Pi3":16, "Pi7":16, "Pi2":12, "Pi0":70, "Pi4":16, "Pi5":16, "Pi1":28, "Pi6":16}
+Tx DIFFREQ
+Pi0 {"Pi5":16, "Pi1":28, "Pi6":16, "Pi3":16, "Pi7":16, "Pi2":15, "Pi0":71, "Pi4":16}
+Rx DIFFRSP
+Pi1 {"Pi1":1}
+Initialization Complete
+Pi1 {"Pi1":2}
+Tx BARRREQ
+Pi1 {"Pi5":2, "Pi7":2, "Pi4":2, "Pi6":2, "Pi3":2, "Pi0":11, "Pi2":2, "Pi1":3}
+Rx BARRRSP
+Pi1 {"Pi0":11, "Pi2":2, "Pi1":4, "Pi5":2, "Pi7":2, "Pi4":2, "Pi6":2, "Pi3":2}
+Tx BARRREQ
+Pi1 {"Pi5":4, "Pi7":4, "Pi4":4, "Pi6":4, "Pi3":4, "Pi0":27, "Pi2":4, "Pi1":5}
+Rx BARRRSP
+Pi1 {"Pi1":6, "Pi5":4, "Pi7":4, "Pi4":4, "Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4}
+Rx LOCKREQ
+Pi1 {"Pi7":4, "Pi4":4, "Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4, "Pi1":7, "Pi5":4}
+Tx LOCKRSP
+Pi1 {"Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4, "Pi1":8, "Pi5":6, "Pi7":4, "Pi4":4}
+Rx LOCKREQ
+Pi1 {"Pi0":34, "Pi2":4, "Pi1":9, "Pi5":6, "Pi7":4, "Pi4":4, "Pi6":4, "Pi3":4}
+Tx LOCKREQ
+Pi1 {"Pi0":34, "Pi2":4, "Pi1":10, "Pi5":6, "Pi7":6, "Pi4":4, "Pi6":4, "Pi3":4}
+Rx LOCKREQ
+Pi1 {"Pi7":6, "Pi4":4, "Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4, "Pi1":11, "Pi5":6}
+Tx LOCKREQ
+Pi1 {"Pi5":6, "Pi7":6, "Pi4":6, "Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4, "Pi1":12}
+Rx LOCKREQ
+Pi1 {"Pi7":6, "Pi4":6, "Pi6":4, "Pi3":4, "Pi0":34, "Pi2":4, "Pi1":13, "Pi5":6}
+Tx LOCKREQ
+Pi1 {"Pi2":4, "Pi1":14, "Pi5":6, "Pi7":6, "Pi4":6, "Pi6":6, "Pi3":4, "Pi0":34}
+Rx LOCKREQ
+Pi1 {"Pi2":4, "Pi1":15, "Pi5":6, "Pi7":6, "Pi4":6, "Pi6":6, "Pi3":4, "Pi0":34}
+Tx LOCKREQ
+Pi1 {"Pi2":4, "Pi1":16, "Pi5":6, "Pi7":6, "Pi4":6, "Pi6":6, "Pi3":4, "Pi0":34}
+Tx LOCKREQ
+Pi1 {"Pi7":16, "Pi4":16, "Pi6":13, "Pi3":4, "Pi0":52, "Pi2":4, "Pi1":17, "Pi5":16}
+Rx LOCKRSP
+Pi1 {"Pi2":4, "Pi1":18, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":13, "Pi3":4, "Pi0":52}
+Tx PAGEREQ
+Pi1 {"Pi6":13, "Pi3":4, "Pi0":54, "Pi2":4, "Pi1":19, "Pi5":16, "Pi7":16, "Pi4":16}
+Rx PAGERSP
+Pi1 {"Pi3":4, "Pi0":54, "Pi2":4, "Pi1":20, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":13}
+Tx DIFFREQ
+Pi1 {"Pi7":16, "Pi4":16, "Pi6":16, "Pi3":4, "Pi0":54, "Pi2":4, "Pi1":21, "Pi5":16}
+Rx DIFFRSP
+Pi1 {"Pi3":4, "Pi0":54, "Pi2":4, "Pi1":22, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16}
+Tx BARRREQ
+Pi1 {"Pi6":16, "Pi3":6, "Pi0":54, "Pi2":4, "Pi1":23, "Pi5":16, "Pi7":16, "Pi4":16}
+Rx LOCKREQ
+Pi1 {"Pi1":24, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16, "Pi3":6, "Pi0":54, "Pi2":4}
+Tx LOCKRSP
+Pi1 {"Pi0":58, "Pi2":4, "Pi1":25, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16, "Pi3":10}
+Rx DIFFREQ
+Pi1 {"Pi2":4, "Pi1":26, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16, "Pi3":10, "Pi0":58}
+Tx DIFFRSP
+Pi1 {"Pi2":6, "Pi1":27, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16, "Pi3":10, "Pi0":58}
+Rx LOCKREQ
+Pi1 {"Pi4":16, "Pi6":16, "Pi3":10, "Pi0":58, "Pi2":6, "Pi1":28, "Pi5":16, "Pi7":16}
+Tx LOCKREQ
+Pi1 {"Pi0":63, "Pi2":12, "Pi1":29, "Pi5":16, "Pi7":16, "Pi4":16, "Pi6":16, "Pi3":16}
+Rx BARRRSP
+Pi2 {"Pi2":1}
+Initialization Complete
+Pi2 {"Pi2":2}
+Tx BARRREQ
+Pi2 {"Pi3":2, "Pi0":12, "Pi5":2, "Pi2":3, "Pi7":2, "Pi4":2, "Pi6":2, "Pi1":2}
+Rx BARRRSP
+Pi2 {"Pi0":12, "Pi5":2, "Pi2":4, "Pi7":2, "Pi4":2, "Pi6":2, "Pi1":2, "Pi3":2}
+Tx BARRREQ
+Pi2 {"Pi0":28, "Pi5":4, "Pi2":5, "Pi7":4, "Pi4":4, "Pi6":4, "Pi1":4, "Pi3":4}
+Rx BARRRSP
+Pi2 {"Pi5":4, "Pi2":6, "Pi7":4, "Pi4":4, "Pi6":4, "Pi1":4, "Pi3":4, "Pi0":28}
+Tx LOCKREQ
+Pi2 {"Pi4":16, "Pi6":16, "Pi1":28, "Pi3":14, "Pi0":58, "Pi5":16, "Pi2":7, "Pi7":16}
+Rx LOCKRSP
+Pi2 {"Pi0":58, "Pi5":16, "Pi2":8, "Pi7":16, "Pi4":16, "Pi6":16, "Pi1":28, "Pi3":14}
+Tx PAGEREQ
+Pi2 {"Pi4":16, "Pi6":16, "Pi1":28, "Pi3":14, "Pi0":61, "Pi5":16, "Pi2":9, "Pi7":16}
+Rx PAGERSP
+Pi2 {"Pi0":61, "Pi5":16, "Pi2":10, "Pi7":16, "Pi4":16, "Pi6":16, "Pi1":28, "Pi3":14}
+Tx DIFFREQ
+Pi2 {"Pi5":16, "Pi2":11, "Pi7":16, "Pi4":16, "Pi6":16, "Pi1":28, "Pi3":16, "Pi0":61}
+Rx DIFFRSP
+Pi2 {"Pi4":16, "Pi6":16, "Pi1":28, "Pi3":16, "Pi0":61, "Pi5":16, "Pi2":12, "Pi7":16}
+Tx BARRREQ
+Pi2 {"Pi4":16, "Pi6":16, "Pi1":28, "Pi3":16, "Pi0":70, "Pi5":16, "Pi2":13, "Pi7":16}
+Rx DIFFREQ
+Pi2 {"Pi6":16, "Pi1":28, "Pi3":16, "Pi0":70, "Pi5":16, "Pi2":14, "Pi7":16, "Pi4":16}
+Tx DIFFRSP
+Pi2 {"Pi3":16, "Pi0":70, "Pi5":16, "Pi2":15, "Pi7":16, "Pi4":16, "Pi6":16, "Pi1":28}
+Rx BARRRSP
+Pi3 {"Pi3":1}
+Initialization Complete
+Pi3 {"Pi3":2}
+Tx BARRREQ
+Pi3 {"Pi0":13, "Pi2":2, "Pi5":2, "Pi7":2, "Pi3":3, "Pi4":2, "Pi6":2, "Pi1":2}
+Rx BARRRSP
+Pi3 {"Pi1":2, "Pi0":13, "Pi2":2, "Pi5":2, "Pi7":2, "Pi3":4, "Pi4":2, "Pi6":2}
+Tx BARRREQ
+Pi3 {"Pi0":29, "Pi2":4, "Pi5":4, "Pi7":4, "Pi3":5, "Pi4":4, "Pi6":4, "Pi1":4}
+Rx BARRRSP
+Pi3 {"Pi0":29, "Pi2":4, "Pi5":4, "Pi7":4, "Pi3":6, "Pi4":4, "Pi6":4, "Pi1":4}
+Tx LOCKREQ
+Pi3 {"Pi7":16, "Pi3":7, "Pi4":16, "Pi6":16, "Pi1":24, "Pi0":54, "Pi2":4, "Pi5":16}
+Rx LOCKRSP
+Pi3 {"Pi2":4, "Pi5":16, "Pi7":16, "Pi3":8, "Pi4":16, "Pi6":16, "Pi1":24, "Pi0":54}
+Tx PAGEREQ
+Pi3 {"Pi4":16, "Pi6":16, "Pi1":24, "Pi0":58, "Pi2":4, "Pi5":16, "Pi7":16, "Pi3":9}
+Rx PAGERSP
+Pi3 {"Pi5":16, "Pi7":16, "Pi3":10, "Pi4":16, "Pi6":16, "Pi1":24, "Pi0":58, "Pi2":4}
+Tx DIFFREQ
+Pi3 {"Pi4":16, "Pi6":16, "Pi1":26, "Pi0":58, "Pi2":4, "Pi5":16, "Pi7":16, "Pi3":11}
+Rx DIFFRSP
+Pi3 {"Pi3":12, "Pi4":16, "Pi6":16, "Pi1":26, "Pi0":58, "Pi2":4, "Pi5":16, "Pi7":16}
+Tx BARRREQ
+Pi3 {"Pi6":16, "Pi1":28, "Pi0":58, "Pi2":6, "Pi5":16, "Pi7":16, "Pi3":13, "Pi4":16}
+Rx LOCKREQ
+Pi3 {"Pi5":16, "Pi7":16, "Pi3":14, "Pi4":16, "Pi6":16, "Pi1":28, "Pi0":58, "Pi2":6}
+Tx LOCKRSP
+Pi3 {"Pi0":61, "Pi2":10, "Pi5":16, "Pi7":16, "Pi3":15, "Pi4":16, "Pi6":16, "Pi1":28}
+Rx DIFFREQ
+Pi3 {"Pi3":16, "Pi4":16, "Pi6":16, "Pi1":28, "Pi0":61, "Pi2":10, "Pi5":16, "Pi7":16}
+Tx DIFFRSP
+Pi3 {"Pi4":16, "Pi6":16, "Pi1":28, "Pi0":65, "Pi2":12, "Pi5":16, "Pi7":16, "Pi3":17}
+Rx BARRRSP
+Pi4 {"Pi4":1}
+Initialization Complete
+Pi4 {"Pi4":2}
+Tx BARRREQ
+Pi4 {"Pi7":2, "Pi4":3, "Pi6":2, "Pi1":2, "Pi3":2, "Pi0":14, "Pi2":2, "Pi5":2}
+Rx BARRRSP
+Pi4 {"Pi5":2, "Pi7":2, "Pi4":4, "Pi6":2, "Pi1":2, "Pi3":2, "Pi0":14, "Pi2":2}
+Tx BARRREQ
+Pi4 {"Pi6":4, "Pi1":4, "Pi3":4, "Pi0":30, "Pi2":4, "Pi5":4, "Pi7":4, "Pi4":5}
+Rx BARRRSP
+Pi4 {"Pi1":4, "Pi3":4, "Pi0":30, "Pi2":4, "Pi5":4, "Pi7":4, "Pi4":6, "Pi6":4}
+Tx LOCKREQ
+Pi4 {"Pi3":4, "Pi0":34, "Pi2":4, "Pi5":6, "Pi7":6, "Pi4":7, "Pi6":6, "Pi1":15}
+Rx LOCKREQ
+Pi4 {"Pi0":46, "Pi2":4, "Pi5":16, "Pi7":13, "Pi4":8, "Pi6":6, "Pi1":15, "Pi3":4}
+Rx LOCKRSP
+Pi4 {"Pi4":9, "Pi6":6, "Pi1":15, "Pi3":4, "Pi0":46, "Pi2":4, "Pi5":16, "Pi7":13}
+Tx PAGEREQ
+Pi4 {"Pi4":10, "Pi6":6, "Pi1":15, "Pi3":4, "Pi0":49, "Pi2":4, "Pi5":16, "Pi7":14}
+Rx PAGERSP
+Pi4 {"Pi1":15, "Pi3":4, "Pi0":49, "Pi2":4, "Pi5":16, "Pi7":14, "Pi4":11, "Pi6":6}
+Tx DIFFREQ
+Pi4 {"Pi4":12, "Pi6":6, "Pi1":15, "Pi3":4, "Pi0":49, "Pi2":4, "Pi5":16, "Pi7":16}
+Rx DIFFRSP
+Pi4 {"Pi5":16, "Pi7":16, "Pi4":13, "Pi6":6, "Pi1":15, "Pi3":4, "Pi0":49, "Pi2":4}
+Tx LOCKRSP
+Pi4 {"Pi0":49, "Pi2":4, "Pi5":16, "Pi7":16, "Pi4":14, "Pi6":6, "Pi1":15, "Pi3":4}
+Tx BARRREQ
+Pi4 {"Pi0":52, "Pi2":4, "Pi5":16, "Pi7":16, "Pi4":15, "Pi6":11, "Pi1":16, "Pi3":4}
+Rx DIFFREQ
+Pi4 {"Pi6":11, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4, "Pi5":16, "Pi7":16, "Pi4":16}
+Tx DIFFRSP
+Pi4 {"Pi3":16, "Pi0":66, "Pi2":12, "Pi5":16, "Pi7":16, "Pi4":17, "Pi6":16, "Pi1":28}
+Rx BARRRSP
+Pi5 {"Pi5":1}
+Initialization Complete
+Pi5 {"Pi5":2}
+Tx BARRREQ
+Pi5 {"Pi5":3, "Pi2":2, "Pi7":2, "Pi4":2, "Pi6":2, "Pi1":2, "Pi3":2, "Pi0":15}
+Rx BARRRSP
+Pi5 {"Pi4":2, "Pi6":2, "Pi1":2, "Pi3":2, "Pi0":15, "Pi5":4, "Pi2":2, "Pi7":2}
+Tx BARRREQ
+Pi5 {"Pi5":5, "Pi2":4, "Pi7":4, "Pi4":4, "Pi6":4, "Pi1":4, "Pi3":4, "Pi0":31}
+Rx BARRRSP
+Pi5 {"Pi7":4, "Pi4":4, "Pi6":4, "Pi1":4, "Pi3":4, "Pi0":31, "Pi5":6, "Pi2":4}
+Tx LOCKREQ
+Pi5 {"Pi2":4, "Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11, "Pi3":4, "Pi0":34, "Pi5":7}
+Rx LOCKREQ
+Pi5 {"Pi3":4, "Pi0":39, "Pi5":8, "Pi2":4, "Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11}
+Rx LOCKRSP
+Pi5 {"Pi2":4, "Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11, "Pi3":4, "Pi0":39, "Pi5":9}
+Tx PAGEREQ
+Pi5 {"Pi6":4, "Pi1":11, "Pi3":4, "Pi0":41, "Pi5":10, "Pi2":4, "Pi7":6, "Pi4":4}
+Rx PAGERSP
+Pi5 {"Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11, "Pi3":4, "Pi0":41, "Pi5":11, "Pi2":4}
+Tx DIFFREQ
+Pi5 {"Pi6":4, "Pi1":11, "Pi3":4, "Pi0":43, "Pi5":12, "Pi2":4, "Pi7":6, "Pi4":4}
+Rx DIFFRSP
+Pi5 {"Pi0":43, "Pi5":13, "Pi2":4, "Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11, "Pi3":4}
+Tx LOCKRSP
+Pi5 {"Pi5":14, "Pi2":4, "Pi7":6, "Pi4":4, "Pi6":4, "Pi1":11, "Pi3":4, "Pi0":43}
+Tx BARRREQ
+Pi5 {"Pi7":11, "Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4, "Pi0":46, "Pi5":15, "Pi2":4}
+Rx DIFFREQ
+Pi5 {"Pi1":13, "Pi3":4, "Pi0":46, "Pi5":16, "Pi2":4, "Pi7":11, "Pi4":6, "Pi6":4}
+Tx DIFFRSP
+Pi5 {"Pi6":16, "Pi1":28, "Pi3":16, "Pi0":67, "Pi5":17, "Pi2":12, "Pi7":16, "Pi4":16}
+Rx BARRRSP
+Pi6 {"Pi6":1}
+Initialization Complete
+Pi6 {"Pi6":2}
+Tx BARRREQ
+Pi6 {"Pi0":16, "Pi2":2, "Pi6":3, "Pi5":2, "Pi7":2, "Pi4":2, "Pi1":2, "Pi3":2}
+Rx BARRRSP
+Pi6 {"Pi3":2, "Pi0":16, "Pi2":2, "Pi6":4, "Pi5":2, "Pi7":2, "Pi4":2, "Pi1":2}
+Tx BARRREQ
+Pi6 {"Pi6":5, "Pi5":4, "Pi7":4, "Pi4":4, "Pi1":4, "Pi3":4, "Pi0":32, "Pi2":4}
+Rx BARRRSP
+Pi6 {"Pi5":4, "Pi7":4, "Pi4":4, "Pi1":4, "Pi3":4, "Pi0":32, "Pi2":4, "Pi6":6}
+Tx LOCKREQ
+Pi6 {"Pi2":4, "Pi6":7, "Pi5":6, "Pi7":6, "Pi4":6, "Pi1":16, "Pi3":4, "Pi0":34}
+Rx LOCKREQ
+Pi6 {"Pi0":49, "Pi2":4, "Pi6":8, "Pi5":16, "Pi7":16, "Pi4":13, "Pi1":16, "Pi3":4}
+Rx LOCKRSP
+Pi6 {"Pi5":16, "Pi7":16, "Pi4":13, "Pi1":16, "Pi3":4, "Pi0":49, "Pi2":4, "Pi6":9}
+Tx PAGEREQ
+Pi6 {"Pi6":10, "Pi5":16, "Pi7":16, "Pi4":14, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4}
+Rx PAGERSP
+Pi6 {"Pi7":16, "Pi4":14, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4, "Pi6":11, "Pi5":16}
+Tx DIFFREQ
+Pi6 {"Pi5":16, "Pi7":16, "Pi4":16, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4, "Pi6":12}
+Rx DIFFRSP
+Pi6 {"Pi7":16, "Pi4":16, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4, "Pi6":13, "Pi5":16}
+Tx LOCKRSP
+Pi6 {"Pi5":16, "Pi7":16, "Pi4":16, "Pi1":16, "Pi3":4, "Pi0":52, "Pi2":4, "Pi6":14}
+Tx BARRREQ
+Pi6 {"Pi2":4, "Pi6":15, "Pi5":16, "Pi7":16, "Pi4":16, "Pi1":20, "Pi3":4, "Pi0":54}
+Rx DIFFREQ
+Pi6 {"Pi6":16, "Pi5":16, "Pi7":16, "Pi4":16, "Pi1":20, "Pi3":4, "Pi0":54, "Pi2":4}
+Tx DIFFRSP
+Pi6 {"Pi4":16, "Pi1":28, "Pi3":16, "Pi0":68, "Pi2":12, "Pi6":17, "Pi5":16, "Pi7":16}
+Rx BARRRSP
+Pi7 {"Pi7":1}
+Initialization Complete
+Pi7 {"Pi7":2}
+Tx BARRREQ
+Pi7 {"Pi3":2, "Pi0":17, "Pi7":3, "Pi2":2, "Pi5":2, "Pi4":2, "Pi6":2, "Pi1":2}
+Rx BARRRSP
+Pi7 {"Pi5":2, "Pi4":2, "Pi6":2, "Pi1":2, "Pi3":2, "Pi0":17, "Pi7":4, "Pi2":2}
+Tx BARRREQ
+Pi7 {"Pi6":4, "Pi1":4, "Pi3":4, "Pi0":33, "Pi7":5, "Pi2":4, "Pi5":4, "Pi4":4}
+Rx BARRRSP
+Pi7 {"Pi2":4, "Pi5":4, "Pi4":4, "Pi6":4, "Pi1":4, "Pi3":4, "Pi0":33, "Pi7":6}
+Tx LOCKREQ
+Pi7 {"Pi2":4, "Pi5":6, "Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4, "Pi0":34, "Pi7":7}
+Rx LOCKREQ
+Pi7 {"Pi5":13, "Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4, "Pi0":43, "Pi7":8, "Pi2":4}
+Rx LOCKRSP
+Pi7 {"Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4, "Pi0":43, "Pi7":9, "Pi2":4, "Pi5":13}
+Tx PAGEREQ
+Pi7 {"Pi6":4, "Pi1":13, "Pi3":4, "Pi0":46, "Pi7":10, "Pi2":4, "Pi5":14, "Pi4":6}
+Rx PAGERSP
+Pi7 {"Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4, "Pi0":46, "Pi7":11, "Pi2":4, "Pi5":14}
+Tx DIFFREQ
+Pi7 {"Pi0":46, "Pi7":12, "Pi2":4, "Pi5":16, "Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4}
+Rx DIFFRSP
+Pi7 {"Pi3":4, "Pi0":46, "Pi7":13, "Pi2":4, "Pi5":16, "Pi4":6, "Pi6":4, "Pi1":13}
+Tx LOCKRSP
+Pi7 {"Pi0":46, "Pi7":14, "Pi2":4, "Pi5":16, "Pi4":6, "Pi6":4, "Pi1":13, "Pi3":4}
+Tx BARRREQ
+Pi7 {"Pi1":15, "Pi3":4, "Pi0":49, "Pi7":15, "Pi2":4, "Pi5":16, "Pi4":11, "Pi6":6}
+Rx DIFFREQ
+Pi7 {"Pi3":4, "Pi0":49, "Pi7":16, "Pi2":4, "Pi5":16, "Pi4":11, "Pi6":6, "Pi1":15}
+Tx DIFFRSP
+Pi7 {"Pi6":16, "Pi1":28, "Pi3":16, "Pi0":69, "Pi7":17, "Pi2":12, "Pi5":16, "Pi4":16}
+Rx BARRRSP

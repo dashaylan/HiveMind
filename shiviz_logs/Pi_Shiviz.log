@@ -1,0 +1,191 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+
+Pi0 {"Pi0":1}
+Initialization Complete
+Pi0 {"Pi0":2}
+Tx BARRREQ
+Pi0 {"Pi0":3}
+Rx BARRREQ
+Pi0 {"Pi0":4, "Pi3":2}
+Rx BARRREQ
+Pi0 {"Pi0":5, "Pi3":2, "Pi2":2}
+Rx BARRREQ
+Pi0 {"Pi2":2, "Pi1":2, "Pi0":6, "Pi3":2}
+Rx BARRREQ
+Pi0 {"Pi0":7, "Pi3":2, "Pi2":2, "Pi1":2}
+Tx BARRRSP
+Pi0 {"Pi1":2, "Pi0":8, "Pi3":2, "Pi2":2}
+Tx BARRRSP
+Pi0 {"Pi2":2, "Pi1":2, "Pi0":9, "Pi3":2}
+Tx BARRRSP
+Pi0 {"Pi3":2, "Pi2":2, "Pi1":2, "Pi0":10}
+Tx BARRREQ
+Pi0 {"Pi0":11, "Pi3":2, "Pi2":2, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi0":12, "Pi3":2, "Pi2":4, "Pi1":2}
+Rx BARRREQ
+Pi0 {"Pi0":13, "Pi3":2, "Pi2":4, "Pi1":4}
+Rx BARRREQ
+Pi0 {"Pi1":4, "Pi0":14, "Pi3":4, "Pi2":4}
+Rx BARRREQ
+Pi0 {"Pi1":4, "Pi0":15, "Pi3":4, "Pi2":4}
+Tx BARRRSP
+Pi0 {"Pi3":4, "Pi2":4, "Pi1":4, "Pi0":16}
+Tx BARRRSP
+Pi0 {"Pi2":4, "Pi1":4, "Pi0":17, "Pi3":4}
+Tx BARRRSP
+Pi0 {"Pi2":4, "Pi1":6, "Pi0":18, "Pi3":4}
+Rx PAGEREQ
+Pi0 {"Pi0":19, "Pi3":4, "Pi2":4, "Pi1":6}
+Tx PAGERSP
+Pi0 {"Pi0":20, "Pi3":4, "Pi2":4, "Pi1":8}
+Rx DIFFREQ
+Pi0 {"Pi2":4, "Pi1":8, "Pi0":21, "Pi3":4}
+Tx DIFFRSP
+Pi0 {"Pi2":8, "Pi1":11, "Pi0":22, "Pi3":4}
+Rx PAGEREQ
+Pi0 {"Pi3":4, "Pi2":8, "Pi1":11, "Pi0":23}
+Tx PAGERSP
+Pi0 {"Pi3":4, "Pi2":8, "Pi1":12, "Pi0":24}
+Rx BARRREQ
+Pi0 {"Pi2":8, "Pi1":12, "Pi0":25, "Pi3":4}
+Tx LOCKREQ
+Pi0 {"Pi2":14, "Pi1":18, "Pi0":26, "Pi3":6}
+Rx BARRREQ
+Pi0 {"Pi3":9, "Pi2":14, "Pi1":18, "Pi0":27}
+Rx PAGEREQ
+Pi0 {"Pi0":28, "Pi3":9, "Pi2":14, "Pi1":18}
+Tx PAGERSP
+Pi0 {"Pi1":18, "Pi0":29, "Pi3":13, "Pi2":16}
+Rx LOCKRSP
+Pi0 {"Pi2":16, "Pi1":18, "Pi0":30, "Pi3":14}
+Rx BARRREQ
+Pi0 {"Pi0":31, "Pi3":14, "Pi2":16, "Pi1":18}
+Tx DIFFREQ
+Pi0 {"Pi3":16, "Pi2":16, "Pi1":18, "Pi0":32}
+Rx DIFFRSP
+Pi0 {"Pi1":18, "Pi0":33, "Pi3":16, "Pi2":16}
+Tx BARRREQ
+Pi0 {"Pi2":16, "Pi1":18, "Pi0":34, "Pi3":16}
+Rx BARRREQ
+Pi0 {"Pi0":35, "Pi3":16, "Pi2":16, "Pi1":18}
+Tx BARRRSP
+Pi0 {"Pi2":16, "Pi1":18, "Pi0":36, "Pi3":16}
+Tx BARRRSP
+Pi0 {"Pi2":16, "Pi1":18, "Pi0":37, "Pi3":16}
+Tx BARRRSP
+Pi0 {"Pi1":18, "Pi0":38, "Pi3":16, "Pi2":16}
+Tx DIFFREQ
+Pi0 {"Pi0":39, "Pi3":19, "Pi2":16, "Pi1":18}
+Rx DIFFRSP
+Pi1 {"Pi1":1}
+Initialization Complete
+Pi1 {"Pi1":2}
+Tx BARRREQ
+Pi1 {"Pi2":2, "Pi1":3, "Pi0":7, "Pi3":2}
+Rx BARRRSP
+Pi1 {"Pi1":4, "Pi0":7, "Pi3":2, "Pi2":2}
+Tx BARRREQ
+Pi1 {"Pi2":4, "Pi1":5, "Pi0":15, "Pi3":4}
+Rx BARRRSP
+Pi1 {"Pi1":6, "Pi0":15, "Pi3":4, "Pi2":4}
+Tx PAGEREQ
+Pi1 {"Pi1":7, "Pi0":19, "Pi3":4, "Pi2":4}
+Rx PAGERSP
+Pi1 {"Pi2":4, "Pi1":8, "Pi0":19, "Pi3":4}
+Tx DIFFREQ
+Pi1 {"Pi2":6, "Pi1":9, "Pi0":19, "Pi3":4}
+Rx LOCKREQ
+Pi1 {"Pi3":4, "Pi2":6, "Pi1":10, "Pi0":21}
+Rx DIFFRSP
+Pi1 {"Pi1":11, "Pi0":21, "Pi3":4, "Pi2":6}
+Tx LOCKRSP
+Pi1 {"Pi3":4, "Pi2":6, "Pi1":12, "Pi0":21}
+Tx BARRREQ
+Pi1 {"Pi3":6, "Pi2":6, "Pi1":13, "Pi0":21}
+Rx LOCKREQ
+Pi1 {"Pi3":6, "Pi2":6, "Pi1":14, "Pi0":21}
+Tx LOCKREQ
+Pi1 {"Pi0":25, "Pi3":6, "Pi2":8, "Pi1":15}
+Rx LOCKREQ
+Pi1 {"Pi1":16, "Pi0":25, "Pi3":6, "Pi2":8}
+Tx LOCKREQ
+Pi1 {"Pi2":11, "Pi1":17, "Pi0":25, "Pi3":6}
+Rx DIFFREQ
+Pi1 {"Pi2":11, "Pi1":18, "Pi0":25, "Pi3":6}
+Tx DIFFRSP
+Pi1 {"Pi2":16, "Pi1":19, "Pi0":35, "Pi3":16}
+Rx BARRRSP
+Pi2 {"Pi2":1}
+Initialization Complete
+Pi2 {"Pi2":2}
+Tx BARRREQ
+Pi2 {"Pi2":3, "Pi0":8, "Pi3":2, "Pi1":2}
+Rx BARRRSP
+Pi2 {"Pi2":4, "Pi0":8, "Pi3":2, "Pi1":2}
+Tx BARRREQ
+Pi2 {"Pi3":4, "Pi1":4, "Pi2":5, "Pi0":16}
+Rx BARRRSP
+Pi2 {"Pi1":4, "Pi2":6, "Pi0":16, "Pi3":4}
+Tx LOCKREQ
+Pi2 {"Pi3":4, "Pi1":11, "Pi2":7, "Pi0":21}
+Rx LOCKRSP
+Pi2 {"Pi1":11, "Pi2":8, "Pi0":21, "Pi3":4}
+Tx PAGEREQ
+Pi2 {"Pi1":11, "Pi2":9, "Pi0":23, "Pi3":4}
+Rx PAGERSP
+Pi2 {"Pi0":23, "Pi3":6, "Pi1":14, "Pi2":10}
+Rx LOCKREQ
+Pi2 {"Pi3":6, "Pi1":14, "Pi2":11, "Pi0":23}
+Tx DIFFREQ
+Pi2 {"Pi1":18, "Pi2":12, "Pi0":25, "Pi3":6}
+Rx DIFFRSP
+Pi2 {"Pi3":6, "Pi1":18, "Pi2":13, "Pi0":25}
+Tx LOCKRSP
+Pi2 {"Pi0":25, "Pi3":6, "Pi1":18, "Pi2":14}
+Tx BARRREQ
+Pi2 {"Pi0":28, "Pi3":11, "Pi1":18, "Pi2":15}
+Rx DIFFREQ
+Pi2 {"Pi0":28, "Pi3":11, "Pi1":18, "Pi2":16}
+Tx DIFFRSP
+Pi2 {"Pi1":18, "Pi2":17, "Pi0":36, "Pi3":16}
+Rx BARRRSP
+Pi3 {"Pi3":1}
+Initialization Complete
+Pi3 {"Pi3":2}
+Tx BARRREQ
+Pi3 {"Pi3":3, "Pi0":9, "Pi2":2, "Pi1":2}
+Rx BARRRSP
+Pi3 {"Pi3":4, "Pi0":9, "Pi2":2, "Pi1":2}
+Tx BARRREQ
+Pi3 {"Pi2":4, "Pi1":4, "Pi3":5, "Pi0":17}
+Rx BARRRSP
+Pi3 {"Pi0":17, "Pi2":4, "Pi1":4, "Pi3":6}
+Tx LOCKREQ
+Pi3 {"Pi0":25, "Pi2":8, "Pi1":16, "Pi3":7}
+Rx LOCKREQ
+Pi3 {"Pi1":18, "Pi3":8, "Pi0":25, "Pi2":13}
+Rx LOCKRSP
+Pi3 {"Pi3":9, "Pi0":25, "Pi2":13, "Pi1":18}
+Tx PAGEREQ
+Pi3 {"Pi2":14, "Pi1":18, "Pi3":10, "Pi0":28}
+Rx PAGERSP
+Pi3 {"Pi1":18, "Pi3":11, "Pi0":28, "Pi2":14}
+Tx DIFFREQ
+Pi3 {"Pi1":18, "Pi3":12, "Pi0":28, "Pi2":16}
+Rx DIFFRSP
+Pi3 {"Pi2":16, "Pi1":18, "Pi3":13, "Pi0":28}
+Tx LOCKRSP
+Pi3 {"Pi1":18, "Pi3":14, "Pi0":28, "Pi2":16}
+Tx BARRREQ
+Pi3 {"Pi1":18, "Pi3":15, "Pi0":31, "Pi2":16}
+Rx DIFFREQ
+Pi3 {"Pi2":16, "Pi1":18, "Pi3":16, "Pi0":31}
+Tx DIFFRSP
+Pi3 {"Pi0":37, "Pi2":16, "Pi1":18, "Pi3":17}
+Rx BARRRSP
+Pi3 {"Pi3":18, "Pi0":38, "Pi2":16, "Pi1":18}
+Rx DIFFREQ
+Pi3 {"Pi2":16, "Pi1":18, "Pi3":19, "Pi0":38}
+Tx DIFFRSP

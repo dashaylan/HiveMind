@@ -1,0 +1,63 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+
+SimpleDSM0 {"SimpleDSM0":1}
+Initialization Complete
+SimpleDSM0 {"SimpleDSM0":2}
+Tx BARRREQ
+SimpleDSM0 {"SimpleDSM0":3}
+Rx BARRREQ
+SimpleDSM0 {"SimpleDSM1":2, "SimpleDSM0":4}
+Rx BARRREQ
+SimpleDSM0 {"SimpleDSM1":2, "SimpleDSM0":5}
+Tx BARRRSP
+SimpleDSM0 {"SimpleDSM1":2, "SimpleDSM0":6}
+Tx BARRREQ
+SimpleDSM0 {"SimpleDSM1":2, "SimpleDSM0":7}
+Rx BARRREQ
+SimpleDSM0 {"SimpleDSM1":4, "SimpleDSM0":8}
+Rx PAGEREQ
+SimpleDSM0 {"SimpleDSM1":4, "SimpleDSM0":9}
+Tx PAGERSP
+SimpleDSM0 {"SimpleDSM0":10, "SimpleDSM1":6}
+Rx PAGEREQ
+SimpleDSM0 {"SimpleDSM0":11, "SimpleDSM1":6}
+Tx PAGERSP
+SimpleDSM0 {"SimpleDSM0":12, "SimpleDSM1":8}
+Rx BARRREQ
+SimpleDSM0 {"SimpleDSM1":8, "SimpleDSM0":13}
+Tx BARRRSP
+SimpleDSM0 {"SimpleDSM1":8, "SimpleDSM0":14}
+Tx DIFFREQ
+SimpleDSM0 {"SimpleDSM1":11, "SimpleDSM0":15}
+Rx DIFFRSP
+SimpleDSM0 {"SimpleDSM1":11, "SimpleDSM0":16}
+Tx DIFFREQ
+SimpleDSM0 {"SimpleDSM1":13, "SimpleDSM0":17}
+Rx DIFFRSP
+SimpleDSM1 {"SimpleDSM1":1}
+Initialization Complete
+SimpleDSM1 {"SimpleDSM1":2}
+Tx BARRREQ
+SimpleDSM1 {"SimpleDSM1":3, "SimpleDSM0":5}
+Rx BARRRSP
+SimpleDSM1 {"SimpleDSM1":4, "SimpleDSM0":5}
+Tx PAGEREQ
+SimpleDSM1 {"SimpleDSM0":9, "SimpleDSM1":5}
+Rx PAGERSP
+SimpleDSM1 {"SimpleDSM0":9, "SimpleDSM1":6}
+Tx PAGEREQ
+SimpleDSM1 {"SimpleDSM0":11, "SimpleDSM1":7}
+Rx PAGERSP
+SimpleDSM1 {"SimpleDSM0":11, "SimpleDSM1":8}
+Tx BARRREQ
+SimpleDSM1 {"SimpleDSM1":9, "SimpleDSM0":13}
+Rx BARRRSP
+SimpleDSM1 {"SimpleDSM0":14, "SimpleDSM1":10}
+Rx DIFFREQ
+SimpleDSM1 {"SimpleDSM0":14, "SimpleDSM1":11}
+Tx DIFFRSP
+SimpleDSM1 {"SimpleDSM0":16, "SimpleDSM1":12}
+Rx DIFFREQ
+SimpleDSM1 {"SimpleDSM1":13, "SimpleDSM0":16}
+Tx DIFFRSP
