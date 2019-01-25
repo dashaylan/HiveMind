@@ -26,7 +26,7 @@ import (
 )
 
 const (
-	NRPROC   = 8
+	NRPROC   = 4
 	NRBARR   = 5
 	NRLOCKS  = 10
 	NRPAGES  = 10
@@ -41,7 +41,6 @@ func f(x float64) float64 {
 
 func main() {
 	fmt.Println("!!! Hivemind Pi !!!")
-
 
 	go hivemind.DumpLog()
 

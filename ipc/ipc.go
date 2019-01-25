@@ -12,6 +12,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
+	"log"
 	"net"
 	"net/http"
 	"os"
@@ -168,25 +169,30 @@ func InitPeerMap() PeerMap {
 //runs a native exec, possibly dumping output as required
 func runComm(command string, arg []string, debug bool) error {
 	com := exec.Command(command, arg...)
-
+	fmt.Println("Runcomm: ", com)
 	//dump output to console, for debugging
-	if debug {
-		comout, err := com.StdoutPipe()
-		if err != nil {
-			fmt.Println("Unable to setup stdout for session: %v", err)
-			return err
-		}
-		go io.Copy(os.Stdout, comout)
 
-		comerr, err := com.StderrPipe()
-		if err != nil {
-			fmt.Println("Unable to setup stderr for session: %v", err)
-			return err
-		}
-		go io.Copy(os.Stderr, comerr)
+	comout, err := com.StdoutPipe()
+	if err != nil {
+		fmt.Println("Unable to setup stdout for session: %v", err)
+		return err
 	}
+	fmt.Println("StdOutPipe")
+	go io.Copy(os.Stdout, comout)
 
-	return com.Run()
+	comerr, err := com.StderrPipe()
+	if err != nil {
+		fmt.Println("Unable to setup stderr for session: %v", err)
+		return err
+	}
+	fmt.Println("StderrPipe")
+	go io.Copy(os.Stderr, comerr)
+
+	err = com.Run()
+	if err != nil {
+		log.Fatal(err)
+	}
+	return err
 }
 
 //https://gist.github.com/jniltinho/9788121
@@ -207,6 +213,19 @@ func GetOutboundIP() string {
 	// }
 	return string(buf[:n-1])
 	//fmt.Println("GetOutboundIP is", resp.Body)
+}
+
+// GetOutboundIPKvm Function to grab outbound IP for use with KVM system
+func GetOutboundIPKvm() string {
+	conn, err := net.Dial("udp", "8.8.8.8:80")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer conn.Close()
+
+	localAddr := conn.LocalAddr().(*net.UDPAddr)
+	fmt.Printf("Address %v\n", localAddr.IP.String())
+	return localAddr.IP.String()
 }
 
 func remoteComm(connection *ssh.Client, command string) error {
@@ -257,13 +276,18 @@ func StartNodes(inList []configs.DroneManagerConfig) (int, []configs.DroneConfig
 	//TODO compile package
 	//we are missing a proper main, so ./hiv should be some other exec
 	// err := runComm("zip", []string{"-r", "hiv.zip", "../"}, false)
+	//workaround := "/home/dashaylan/go/src/github.com/dashaylan/HiveMind/apps/pi_hivemind.go"
 	err := runComm("go", []string{"build", "-o", "hiv"}, true)
 	if err != nil {
+		log.Fatal("Compilation error: ", err)
 		return 0, dronelist, err
 	}
 
-	con := configs.Config{IsCBM: false, CBM: GetOutboundIP(), DroneList: dronelist}
-	configs.WriteConfig("droneConf.json", con)
+	con := configs.Config{IsCBM: false, CBM: GetOutboundIPKvm(), DroneList: dronelist}
+	err = configs.WriteConfig("droneConf.json", con)
+	if err != nil {
+		log.Fatal("Config Creation: ", err)
+	}
 	fmt.Println("[IPC] StartNodes: Conf file made")
 
 	//allow sshpass to execute
@@ -395,7 +419,7 @@ func Init(inList []configs.DroneConfig, cbm string) (ipcHandle Ipc, txchan chan 
 	rxchan = make(chan []byte, ipcBufSize)
 	ipcHandle = Ipc{txChan: txchan, rxChan: rxchan}
 	reschan := make(chan connectPeer, len(inList))
-	myip := GetOutboundIP()
+	myip := GetOutboundIPKvm()
 	fmt.Println("[IPC] Init: starting up")
 
 	// Construct PeerMap
@@ -425,6 +449,7 @@ func Init(inList []configs.DroneConfig, cbm string) (ipcHandle Ipc, txchan chan 
 		if err != nil {
 			//can't read from config
 			fmt.Println("[IPC] Init: Can't read config as CBM for DroneList")
+			log.Fatal(err)
 		}
 		inList = locConf.DroneList
 	} else {
@@ -585,7 +610,7 @@ func receiver(rxchan chan<- []byte, ipchandle Ipc) {
 		return
 	}
 
-	fmt.Println("[IPC] Receiver: Ready to accept connections at", GetOutboundIP()+laddr.String())
+	fmt.Println("[IPC] Receiver: Ready to accept connections at", GetOutboundIPKvm()+laddr.String())
 	for {
 		conn, err := list.AcceptTCP()
 		fmt.Println("[Receiver] Got something on", p2pport)

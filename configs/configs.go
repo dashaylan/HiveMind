@@ -41,7 +41,7 @@ type Config struct {
 //reads configuration from config.json
 func ReadConfig() (Config, error) {
 	c := Config{}
-	cfFile, err := ioutil.ReadFile("config.json")
+	cfFile, err := ioutil.ReadFile("../config.json")
 	if err != nil {
 		//fail to read config
 		return c, err

@@ -1,50 +1,26 @@
 {
   "IsCBM": true,
-  "NrProc": 2,
+  "NrProc": 3,
   "Drones": [
     {
-      "Address": "20.190.48.49",
+      "Address": "192.168.122.87",
       "Port": "",
       "Username": "drone2",
       "Password": "DroneDrone02"
     },
     {
-      "Address": "52.151.56.206",
+      "Address": "192.168.122.147",
       "Port": "",
       "Username": "drone3",
       "Password": "DroneDrone03"
     },
     {
-      "Address": "52.229.50.134",
+      "Address": "192.168.122.29",
       "Port": "",
       "Username": "drone4",
       "Password": "DroneDrone04"
-    },
-    {
-      "Address": "52.229.58.24",
-      "Port": "",
-      "Username": "drone5",
-      "Password": "DroneDrone05"
-    },
-    {
-      "Address": "40.65.105.92",
-      "Port": "",
-      "Username": "drone6",
-      "Password": "DroneDrone06"
-    },
-    {
-      "Address": "40.65.111.58",
-      "Port": "",
-      "Username": "drone7",
-      "Password": "DroneDrone07"
-    },
-    {
-      "Address": "52.151.41.54",
-      "Port": "",
-      "Username": "drone8",
-      "Password": "DroneDrone08"
     }
   ],
-  "CBM": "20.36.20.142",
+  "CBM": "192.168.1.178",
   "DroneList": null
 }

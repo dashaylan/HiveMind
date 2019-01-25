@@ -10,6 +10,7 @@ import (
 	"encoding/binary"
 	"encoding/gob"
 	"fmt"
+	"log"
 	"math"
 	"strconv"
 	"sync"
@@ -187,17 +188,17 @@ func NewHiveMind(pid, nrProc, nrBarriers, nrLocks uint8, nrPages, pageSize int, 
 	// If procAddr is not specified then we plan to use tipc for testing locally
 	hm := new(HM)
 	if ipcType == "ipc" || ipcType == "" {
-		myip := ipc.GetOutboundIP()
+		myip := ipc.GetOutboundIPKvm()
 		locConf, err := configs.ReadConfig()
 		if err != nil {
-			//can't read from config
+			log.Fatal("Config Read Error: ", err)
 			return nil
 		}
-		nrProc = uint8(len(locConf.Drones)+1)
+		nrProc = uint8(len(locConf.Drones) + 1)
 		fmt.Println(locConf, hm.nrProc)
 		if locConf.DroneList != nil {
 			// I am not the first drone
-			nrProc = uint8(len(locConf.DroneList)+1)
+			nrProc = uint8(len(locConf.DroneList) + 1)
 			for _, drone := range locConf.DroneList {
 				if myip == drone.Address {
 					//It's me
@@ -210,10 +211,7 @@ func NewHiveMind(pid, nrProc, nrBarriers, nrLocks uint8, nrPages, pageSize int, 
 			pid = uint8(0)
 		}
 
-
 	}
-
-
 
 	hm.nrLocks = nrLocks
 	hm.nrProc = nrProc
@@ -230,6 +228,7 @@ func NewHiveMind(pid, nrProc, nrBarriers, nrLocks uint8, nrPages, pageSize int, 
 	hm.barrierReq = make([]*BarrierRequest, nrProc)
 	hm.locks = make([]*Lock, nrLocks)
 	hm.start = time.Now()
+	fmt.Println("Hivemind Successfully Initiated")
 	return hm
 }
 
@@ -314,7 +313,7 @@ func (hm *HM) Startup(gvec string) {
 
 	locConf, err := configs.ReadConfig()
 	if err != nil {
-		//can't read from config
+		log.Fatal(err)
 		return
 	}
 	fmt.Println("NRPROC: ", hm.nrProc, locConf, locConf.DroneList)
@@ -323,8 +322,10 @@ func (hm *HM) Startup(gvec string) {
 
 	if locConf.IsCBM {
 		//we're the first drone, start up the others
+		fmt.Println("CBM, Starting Node Setup")
 		_, dronesConnected, err := ipc.StartNodes(locConf.Drones[:hm.nrProc-1])
 		if err != nil {
+			log.Fatal(err)
 			//unable to start nodes sucessfully
 		}
 		//initialise IPC module
