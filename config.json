@@ -3,22 +3,22 @@
   "NrProc": 3,
   "Drones": [
     {
-      "Address": "192.168.122.87",
+      "Address": "192.168.122.244",
       "Port": "",
-      "Username": "drone2",
-      "Password": "DroneDrone02"
+      "Username": "ubuntu",
+      "Password": "pass"
     },
     {
-      "Address": "192.168.122.147",
+      "Address": "192.168.122.62",
       "Port": "",
-      "Username": "drone3",
-      "Password": "DroneDrone03"
+      "Username": "ubuntu",
+      "Password": "pass"
     },
     {
-      "Address": "192.168.122.29",
+      "Address": "192.168.122.44",
       "Port": "",
-      "Username": "drone4",
-      "Password": "DroneDrone04"
+      "Username": "ubuntu",
+      "Password": "pass"
     }
   ],
   "CBM": "192.168.1.178",
