@@ -22,7 +22,7 @@ import (
 	"time"
 	"unsafe"
 
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 const (

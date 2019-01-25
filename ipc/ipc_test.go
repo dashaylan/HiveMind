@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"../configs"
+	"github.com/dashaylan/HiveMind/configs"
 )
 
 func TestRunAll(t *testing.T) {

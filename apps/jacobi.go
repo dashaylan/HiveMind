@@ -25,7 +25,7 @@ import (
 	"time"
 	"unsafe"
 
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 // M is the number of rows in the grid

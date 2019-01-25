@@ -6,8 +6,9 @@ This file contains the implementation of the Barrier and Lock managers
 package hivemind
 
 import (
-	"../ipc"
 	"sync"
+
+	"github.com/dashaylan/HiveMind/ipc"
 )
 
 // Manager manages the DSM processes
@@ -15,11 +16,9 @@ type Manager interface {
 	getPID() int
 }
 
-
 type MD struct {
-	pid  int
+	pid int
 }
-
 
 func (md *MD) GetPID() int {
 	return md.pid
@@ -37,7 +36,7 @@ type ManaStruct struct {
 	length   int
 	counter  int
 	Txchan   chan ipc.IpcMessage
-	him *HM
+	him      *HM
 }
 
 func (ms *ManaStruct) Init(keylist []string, himpt *HM) {

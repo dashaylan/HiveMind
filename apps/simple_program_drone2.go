@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 const (

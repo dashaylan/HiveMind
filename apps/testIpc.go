@@ -1,7 +1,7 @@
 package main
 
 import (
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 const (

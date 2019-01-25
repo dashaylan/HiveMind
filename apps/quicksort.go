@@ -12,7 +12,7 @@ import (
 	"time"
 	"unsafe"
 
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 type WorkLoad struct {

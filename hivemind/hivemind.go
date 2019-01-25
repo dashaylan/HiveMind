@@ -17,10 +17,12 @@ import (
 	"time"
 	"unsafe"
 
-	"../configs"
-	"../ipc"
-	"../shm"
-	"../tipc"
+	"github.com/dashaylan/HiveMind/ipc"
+	"github.com/dashaylan/HiveMind/shm"
+	"github.com/dashaylan/HiveMind/tipc"
+
+	"github.com/dashaylan/HiveMind/configs"
+
 	"github.com/arcaneiceman/GoVector/govec"
 )
 

@@ -15,12 +15,11 @@ import (
 	"log"
 	"net"
 	"net/http"
-	"os"
 	"os/exec"
 	"sync"
 	"time"
 
-	"../configs"
+	"github.com/dashaylan/HiveMind/configs"
 
 	"golang.org/x/crypto/ssh"
 )
@@ -172,25 +171,13 @@ func runComm(command string, arg []string, debug bool) error {
 	fmt.Println("Runcomm: ", com)
 	//dump output to console, for debugging
 
-	comout, err := com.StdoutPipe()
-	if err != nil {
-		fmt.Println("Unable to setup stdout for session: %v", err)
-		return err
-	}
-	fmt.Println("StdOutPipe")
-	go io.Copy(os.Stdout, comout)
+	var stderr bytes.Buffer
 
-	comerr, err := com.StderrPipe()
-	if err != nil {
-		fmt.Println("Unable to setup stderr for session: %v", err)
-		return err
-	}
-	fmt.Println("StderrPipe")
-	go io.Copy(os.Stderr, comerr)
+	com.Stderr = &stderr
 
-	err = com.Run()
+	err := com.Run()
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal(fmt.Sprint(err) + ": " + stderr.String())
 	}
 	return err
 }

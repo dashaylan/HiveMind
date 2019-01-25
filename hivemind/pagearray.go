@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"../shm"
+	"github.com/dashaylan/HiveMind/shm"
 )
 
 // PageEntry maintains the stats of shared page in the DSM

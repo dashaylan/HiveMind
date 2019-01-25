@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"../hivemind"
+	"github.com/dashaylan/HiveMind/hivemind"
 )
 
 /*
